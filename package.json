@@ -1,0 +1,26 @@
+{
+  "name": "jordan-belfort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+"scripts": {
+  "deploy": "node src/commands.js",
+  "start": "node src/commands.js && node src/index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "alpaca": "^1.5.27",
+    "asyncio": "^0.0.2",
+    "axios": "^1.13.2",
+    "better-sqlite3": "^12.4.1",
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.0",
+    "puppeteer": "^24.30.0",
+    "redis": "^5.12.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  }
+}
